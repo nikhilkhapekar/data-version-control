@@ -1,4 +1,7 @@
 [core]
     remote = remote_storage
+[cache]
+    dir = /home/nikhil/NIkhil/Task/shared_cache
+    type = symlink
 ['remote "remote_storage"']
     url = /home/nikhil/NIkhil/Task/dvc_remote
